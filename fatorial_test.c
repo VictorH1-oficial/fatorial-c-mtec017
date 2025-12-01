@@ -1,23 +1,11 @@
 #include <stdio.h>
+#include <assert.h>
 #include "fatorial.c"
 
 int main() {
-
+assert(fatorial(5)==120));
+assert(fatorial(0)==1));
     
-    if (fatorial(5) == 120)
-        printf("Teste 1 OK\n");
-    else {
-        printf("Teste 1 FALHOU\n");
-        return 1;
-    }
-
-    
-    if (fatorial(0) == 1)
-        printf("Teste 2 OK\n");
-    else {
-        printf("Teste 2 FALHOU\n");
-        return 1;
-    }
 
     
     if (fatorial(-3) == -1)
