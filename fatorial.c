@@ -8,12 +8,5 @@ int fatorial(int n) {
         resultado *= i;
     }
 
-    printf("%d", resultado);
-}
-
-void main(){
-
-    int n = 3;
-
-    fatorial(n);
+   return resultado;
 }
